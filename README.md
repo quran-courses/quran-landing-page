@@ -1,1 +1,1 @@
-# quran-landing-page
+Quran landing page
