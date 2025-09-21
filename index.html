@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="theme-color" content="#0a4d3c">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>براعم النور</title>
+
+<!-- SEO Meta -->
+<meta name="description" content="موقع مخصص لتحفيظ القرآن الكريم للأطفال بطريقة ممتعة وتفاعلية.">
+<meta name="keywords" content="تحفيظ القرآن, تعليم القرآن, أطفال, مدرسة قرآن, تلاوة, تجويد">
+<meta name="author" content="fawaz">
+
+<!-- Open Graph (للمشاركة على فيسبوك وغيره) -->
+<meta property="og:title" content="موقع تحفيظ القرآن للأطفال">
+<meta property="og:description" content="تعليم وتحفيظ القرآن الكريم للأطفال بأسلوب تفاعلي.">
+<meta property="og:image" content="https://example.com/og-image.jpg">
+<meta property="og:url" content="https://example.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="موقع تحفيظ القرآن للأطفال">
+<meta name="twitter:description" content="تعليم وتحفيظ القرآن الكريم للأطفال بأسلوب ممتع.">
+<meta name="twitter:image" content="https://example.com/twitter-image.jpg">
+
+<!-- Favicon -->
+<link rel="icon" href="./assets/img/icon.png">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+
+<!-- Fontawesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
-    <h1>Hello world</h1>
+
+<!-- Header -->
+<header class="fw-header">
+    <!-- Top Banner -->
+    <div class="fw-top-banner d-flex justify-content-between align-items-center px-3 py-2">
+        <div class="fw-contact-info">
+            <a href="mailto:info@example.com" class="fw-email">
+                <i class="fas fa-envelope"></i> info@example.com
+            </a>
+            <a href="tel:+123456789" class="fw-phone">
+                +123 456 789 <i class="fas fa-phone-alt"></i>
+            </a>
+        </div>
+
+        <div class="fw-social gap-3 d-none d-lg-flex">
+            <a href="#" class="fw-social-link" target="_blank" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="fw-social-link" target="_blank" aria-label="انستغرام"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="fw-social-link" target="_blank" aria-label="تلغرام"><i class="fab fa-telegram-plane"></i></a>
+            <a href="#" class="fw-social-link" target="_blank" aria-label="يوتيوب"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light fw-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-brand" href="./" style="color: var(--green); font-weight:700;">براعم النور</a>
+            <button class="navbar-toggler fw-navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon fw-navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-nav">
+                    <li class="nav-item fw-nav-item"><a class="nav-link fw-nav-link active" href="#">الرئيسية</a></li>
+                    <li class="nav-item fw-nav-item"><a class="nav-link fw-nav-link" href="#">البرامج</a></li>
+                    <li class="nav-item fw-nav-item"><a class="nav-link fw-nav-link" href="#">المعلمون</a></li>
+                    <li class="nav-item fw-nav-item"><a class="nav-link fw-nav-link" href="#">من نحن</a></li>
+                    <li class="nav-item fw-nav-item"><a class="nav-link contact-btn fw-contact-btn" href="#">تواصل معنا</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Hero Slider -->
+<section class="fw-hero hero-slider">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="slide-content">
+                        <h1 class="slide-title">أهلاً بكم في براعم النور</h1>
+                        <p class="slide-text">منصة تعليمية لتحفيظ القرآن الكريم للأطفال بأسلوب عصري يجمع بين الأصالة والرحمة.</p>
+                        <a href="#" class="slide-button">ابدأ معنا الآن</a>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/img/hero-slide.jpg" alt="براعم النور">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="slide-content">
+                        <h1 class="slide-title">معلمون مؤهلون ومتخصصون</h1>
+                        <p class="slide-text">فريق من المعلمين الحاصلين على إجازات في القرآن الكريم، مدربين على أحدث الطرق التعليمية.</p>
+                        <a href="#" class="slide-button">تعرف على المعلمين</a>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/img/hero-slide.jpg" alt="براعم النور">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                    <div class="slide-content">
+                        <h1 class="slide-title">تعلم تفاعلي وممتع</h1>
+                        <p class="slide-text">استخدام أحدث التقنيات التعليمية لجعل حفظ القرآن الكريم ممتعًا ومشوقًا للأطفال.</p>
+                        <a href="#" class="slide-button">اكتشف البرامج</a>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/img/hero-slide.jpg" alt="براعم النور">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination & Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Main js -->
+<script src="./assets/js/main.js"></script>
+
 </body>
 </html>
